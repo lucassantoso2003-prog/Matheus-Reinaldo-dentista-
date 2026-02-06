@@ -7,7 +7,7 @@ const Results: React.FC = () => {
   const [selectedImage, setSelectedImage] = useState<{src: string, alt: string} | null>(null);
 
   return (
-    <section className="py-20 bg-slate-50">
+    <section className="pt-8 pb-20 bg-slate-50">
       <div className="container mx-auto px-6">
         <div className="text-center max-w-2xl mx-auto mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">
@@ -34,8 +34,10 @@ const Results: React.FC = () => {
               <div className="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-colors duration-300 flex items-center justify-center">
                 <Search className="text-white opacity-0 group-hover:opacity-100 transform scale-50 group-hover:scale-100 transition-all duration-300" size={32} />
               </div>
-              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-3 opacity-0 group-hover:opacity-100 transition-opacity">
-                <p className="text-white text-xs font-medium truncate">{img.alt}</p>
+              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 via-black/50 to-transparent p-4 opacity-0 group-hover:opacity-100 transition-opacity flex items-end justify-center">
+                <p className="text-white text-sm font-semibold text-center drop-shadow-md leading-tight">
+                  {img.alt}
+                </p>
               </div>
             </div>
           ))}

@@ -1,17 +1,17 @@
 import React from 'react';
-import { Instagram, CalendarCheck, Sparkles } from 'lucide-react';
+import { MessageCircle, CalendarCheck, Sparkles } from 'lucide-react';
 
 const HowItWorks: React.FC = () => {
   const steps = [
     {
-      icon: <Instagram size={32} />,
+      icon: <MessageCircle size={32} />,
       title: "1. Toque no Botão",
-      desc: "Você será direcionado para o meu Instagram."
+      desc: "Você será direcionado para o meu WhatsApp."
     },
     {
       icon: <CalendarCheck size={32} />,
       title: "2. Agende",
-      desc: "Envie uma mensagem direta (DM) pedindo sua avaliação."
+      desc: "Envie uma mensagem pedindo sua avaliação."
     },
     {
       icon: <Sparkles size={32} />,

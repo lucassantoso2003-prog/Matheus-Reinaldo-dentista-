@@ -1,6 +1,6 @@
 import React from 'react';
 import { EXPERT } from '../constants';
-import { Instagram } from 'lucide-react';
+import { MessageCircle } from 'lucide-react';
 
 interface ButtonProps {
   text: string;
@@ -27,13 +27,13 @@ const Button: React.FC<ButtonProps> = ({
 
   return (
     <a 
-      href={EXPERT.instagramUrl} 
+      href={EXPERT.whatsappUrl} 
       target="_blank" 
       rel="noopener noreferrer"
       className={`${baseClasses} ${variants[variant]} ${fullWidth ? 'w-full' : ''} ${className}`}
     >
       <div className="flex items-center gap-2">
-        <Instagram size={20} className={variant === 'outline' ? 'text-accent' : 'text-white'} />
+        <MessageCircle size={20} className={variant === 'outline' ? 'text-accent' : 'text-white'} />
         <span className="uppercase tracking-wide text-sm md:text-base">{text}</span>
       </div>
       {subtext && (

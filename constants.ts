@@ -12,24 +12,23 @@ export const EXPERT: ExpertProfile = {
     "Atualizando em Implantodontia"
   ],
   location: "Alagoinhas-BA | Conde-BA",
-  instagramUrl: "https://www.instagram.com/dr.matheusreinaldo/"
+  instagramUrl: "https://www.instagram.com/dr.matheusreinaldo/",
+  whatsappUrl: "https://wa.me/5575998337690?text=Olá,%20vim%20pelo%20site%20e%20quero%20mais%20informações."
 };
 
 export const HERO_IMAGES = {
-  main: "https://i.imgur.com/5goMwxf.png",
-  secondary: "https://i.imgur.com/kpbvOiz.png"
+  main: "https://i.imgur.com/uKwLvZv.png",
+  secondary: "https://i.imgur.com/zQ3zsrQ.png",
+  tertiary: "https://i.imgur.com/JIKUfYc.png"
 };
 
 export const RESULTS_GALLERY: ImageAsset[] = [
-  { src: "https://i.imgur.com/nuDZKBx.png", alt: "Transformação de sorriso antes e depois" },
-  { src: "https://i.imgur.com/RcmdkFe.png", alt: "Tratamento estético dental" },
-  { src: "https://i.imgur.com/yungolK.png", alt: "Correção dentária" },
-  { src: "https://i.imgur.com/i8EC0SP.png", alt: "Restaurção de sorriso" },
-  { src: "https://i.imgur.com/o8Y38ca.png", alt: "Procedimento cirúrgico resultado" },
-  { src: "https://i.imgur.com/iCJ2Y2z.png", alt: "Estética dental avançada" },
-  { src: "https://i.imgur.com/hQfWK4t.png", alt: "Clareamento e alinhamento" },
-  { src: "https://i.imgur.com/zkS0m5I.png", alt: "Saúde bucal recuperada" },
-  { src: "https://i.imgur.com/7IZN0bq.png", alt: "Sorriso natural" }
+  { src: "https://i.imgur.com/BqFG3Sm.png", alt: "Cirurgia de siso" },
+  { src: "https://i.imgur.com/ms01Ttv.png", alt: "Cirurgia plástica periodontal" },
+  { src: "https://i.imgur.com/76sdKxD.png", alt: "Clareamento" },
+  { src: "https://i.imgur.com/0Wa183v.png", alt: "Clareamento" },
+  { src: "https://i.imgur.com/kg0OI9X.png", alt: "Restauração" },
+  { src: "https://i.imgur.com/4zPIpLB.png", alt: "Implante" }
 ];
 
 export const TRUST_FACTORS: TrustFactor[] = [

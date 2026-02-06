@@ -4,6 +4,7 @@ export interface ExpertProfile {
   specialties: string[];
   location: string;
   instagramUrl: string;
+  whatsappUrl: string;
 }
 
 export interface ImageAsset {

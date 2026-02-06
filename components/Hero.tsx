@@ -10,7 +10,7 @@ const Hero: React.FC = () => {
       <div className="flex-1 flex flex-col justify-center px-6 pt-12 pb-8 md:p-16 z-10 order-2 md:order-1">
         <div className="max-w-xl mx-auto md:mx-0 text-center md:text-left">
           <span className="inline-block py-1 px-3 rounded-full bg-accent/10 text-accent text-xs font-bold tracking-wider mb-4 border border-accent/20">
-            DENTISTA EM ALAGOINHAS E CONDE
+            DENTISTA EM ALAGOINHAS E CONDE BA
           </span>
           
           <h1 className="text-4xl md:text-6xl font-bold text-primary mb-6 leading-tight">
@@ -18,7 +18,7 @@ const Hero: React.FC = () => {
           </h1>
           
           <p className="text-secondary text-lg mb-8 leading-relaxed">
-            Dê adeus à insegurança de sorrir. Tratamentos personalizados, atendimento humano e resultados que devolvem sua autoestima.
+            Cuidar do seu sorriso vai muito além de um procedimento — é sobre oferecer confiança, segurança e bem-estar em cada atendimento.
           </p>
 
           <div className="flex justify-center md:justify-start">
@@ -43,11 +43,6 @@ const Hero: React.FC = () => {
             WebkitMaskImage: 'linear-gradient(to bottom, black 85%, transparent 100%)'
           }}
         />
-        {/* Decorative Badge */}
-        <div className="absolute bottom-4 right-4 md:bottom-12 md:left-12 md:right-auto bg-white/90 backdrop-blur-md p-4 rounded-xl shadow-lg border border-white/50 max-w-[200px]">
-          <p className="text-xs font-bold text-accent uppercase mb-1">Especialista</p>
-          <p className="text-sm text-slate-800 font-medium">Clínico Geral & Cirurgia Oral</p>
-        </div>
       </div>
     </section>
   );
