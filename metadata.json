@@ -1,5 +1,6 @@
 {
   "name": "Dr. Matheus Reinaldo - Dentista",
   "description": "Agende sua primeira consulta gratuita com Dr. Matheus Reinaldo. Especialista em sorrisos e cirurgia oral.",
-  "requestFramePermissions": []
+  "requestFramePermissions": [],
+  "majorCapabilities": []
 }

@@ -11,7 +11,7 @@ export const EXPERT: ExpertProfile = {
     "Endodontia",
     "Atualizando em Implantodontia"
   ],
-  location: "Alagoinhas-BA | Conde-BA",
+  location: "Alagoinhas-BA | Araças-Ba",
   instagramUrl: "https://www.instagram.com/dr.matheusreinaldo/",
   whatsappUrl: "https://wa.me/5575998337690?text=Olá,%20vim%20pelo%20site%20e%20quero%20mais%20informações."
 };
@@ -65,7 +65,7 @@ export const TRUST_FACTORS: TrustFactor[] = [
   {
     id: '6',
     title: 'Localização',
-    description: 'Atendimento em Alagoinhas e Conde.',
+    description: 'Atendimento em Alagoinhas e Araças-Ba.',
     iconName: 'MapPin'
   }
 ];

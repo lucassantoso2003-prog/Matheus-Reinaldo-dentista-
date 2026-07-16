@@ -10,7 +10,7 @@ const Hero: React.FC = () => {
       <div className="flex-1 flex flex-col justify-center px-6 pt-12 pb-8 md:p-16 z-10 order-2 md:order-1">
         <div className="max-w-xl mx-auto md:mx-0 text-center md:text-left">
           <span className="inline-block py-1 px-3 rounded-full bg-accent/10 text-accent text-xs font-bold tracking-wider mb-4 border border-accent/20">
-            DENTISTA EM ALAGOINHAS E CONDE BA
+            DENTISTA EM ALAGOINHAS E ARAÇAS-BA
           </span>
           
           <h1 className="text-4xl md:text-6xl font-bold text-primary mb-6 leading-tight">
